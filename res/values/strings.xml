@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Testes!</string>
+    <string name="app_name">Ca$h Droid</string>
+    
+    <!-- Login -->
+    <string name="lblUsuario">Usuário</string>
+    <string name="hintTxtUsuario">digite aqui o seu login</string>
+    <string name="lblSenha">Senha</string>
+    <string name="hintTxtSenha">digite aqui sua senha</string>
+    <string name="btnSair">Sair</string>    
+    <string name="btnEntrar">Entrar</string>
+    <string name="lblNovoUsuario">Usuário novo?</string>
+    <string name="ckbLembrarMeusDados">Lembrar meus dados.</string>
+    <color name="lblNovoUsuario">#97c024</color>
+    
+    <!-- cadastro de usuário -->
+    <string name="btnVoltar">Voltar</string>
+    <string name="btnCadastrar">Cadastrar</string>
+    <string name="mensagem_aviso_usuario_nao_informado">Usuário e/ou senha não informado</string>
+    
+    <!-- mensagens de alerta -->
+    <string name="mensagem_titulo_aviso">Aviso</string>
+    <string name="mensagem_titulo_erro">Erro</string>
+    <string name="mensagem_titulo_informacao">Informação</string>
+    <string name="mensagem_titulo_confirmacao">Confirmação</string>
+    
+    <!-- mensagens de erro -->
+	<string name="usuarioNaoEncontrado">Usuário não encontrado com os parâmetros informados.</string>
+	<string name="erroInesperado">Ocorreu um erro inesperado na tentativa de efetuar a operação solicitada.</string>
+	<string name="mensagem_categoria_erro">Ocorreu um erro ao localizar as categorias.</string>
+	
+	<!-- tela principal -->
+	<string name="btnRegGasto">Registrar</string>
+	<string name="btnRelatorioGastos">Gastos</string>
+	
+	<!-- tela de registro de gastos -->
+	<string name="lblData">Data</string>
+	<string name="lblCategoria">Categoria</string>
+	<string name="lblSubCategoria">SubCategoria</string>
+	<string name="lblValor">Valor</string>
+	
+	<!-- dialog -->
+	<string name="btnOk">Ok</string>
+	<string name="dialog_categoria">Categoria?</string>
+	<string name="dialog_subCategoria">SubCategoria?</string>
+	
+	<!-- mensagem de sistema -->
+	<string name="mensagem_salvo_com_sucesso">Dados salvos com sucesso!</string>
+	<string name="mensagem_aviso_categoria_nao_informada">Categoria não informada!</string>
+	<string name="mensagem_aviso_valor_nao_informado">Valor não informado!</string>
+	<string name="mensagem_aviso_data_invalida">Formato da data inválida!</string>
+	
+	<!-- a_relatorio_periodo.xml -->
+	<string name="lblRelatorioPeriodo">Gastos/Período</string>
+	<string-array name="listaPeriodos">
+		<item>Últimos 60 dias</item>
+		<item>Últimos 45 dias</item>
+		<item>Últimos 30 dias</item>
+		<item>Últimos 15 dias</item>
+		<item>Últimos 07 dias</item>
+		<item>Selecionar data inicial e final</item>
+	</string-array>
+	<!-- a_relatorio_periodo_especifico.xml -->
+	<string-array name="listaDatasEspecificas">
+		<item>Hoje</item>
+		<item>Ontem</item>
+		<item>Dia específico</item>		
+	</string-array>
+	
+	<!-- a_relatorio_detalhe_subcategoria -->
+	<string name="descricaoParaSubCategoriaIndefinida">Outros</string>
+	
+	<!-- main menu context -->
+	<string name="main_menu_sair">Sair</string>	
+</resources>

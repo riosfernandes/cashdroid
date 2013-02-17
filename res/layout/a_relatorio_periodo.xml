@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>	
+	<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"		
+		android:orientation="vertical" 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:padding="10px"
+		android:background="@drawable/applogin">		
+		<TextView
+			android:id="@+id/lblRelatorioTitulo"
+			android:singleLine="false"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textStyle="bold"
+			android:textSize="18sp"			
+			android:text="@string/lblRelatorioPeriodo"/>
+		<ListView
+			android:id="@android:id/list"			
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"/>			
+</LinearLayout>

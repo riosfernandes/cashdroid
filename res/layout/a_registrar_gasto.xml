@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/applogin">	
+	<LinearLayout		
+		android:orientation="vertical" 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:padding="20px">
+		<LinearLayout
+			android:orientation="vertical" 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center">
+			<TextView
+				android:text="@string/lblData"
+				android:layout_width= "fill_parent"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:textColor="#ffffff"/>
+			<EditText			
+				android:id="@+id/txtData"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"/>
+			<TextView
+				android:text="@string/lblCategoria"
+				android:layout_width= "fill_parent"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:textColor="#ffffff"/>
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+				<Spinner		
+					android:id="@+id/cmbCategoria"
+					android:layout_weight="90"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"/>
+				<Button
+					android:id="@+id/btnNovaCategoria"
+					android:text="+"
+					android:layout_height="wrap_content"
+					android:layout_weight="10"
+					android:layout_width="wrap_content"/>
+			</LinearLayout>	
+			<TextView
+				android:text="@string/lblSubCategoria"
+				android:layout_width= "fill_parent"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:textColor="#ffffff"/>
+					<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+				<Spinner		
+					android:id="@+id/cmbSubCategoria"
+					android:layout_weight="90"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"/>
+				<Button
+					android:id="@+id/btnNovaSubCategoria"
+					android:text="+"
+					android:layout_height="wrap_content"
+					android:layout_weight="10"
+					android:layout_width="wrap_content"/>
+			</LinearLayout>	
+			<TextView
+				android:text="@string/lblValor"
+				android:layout_width= "fill_parent"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:textColor="#ffffff"/>
+			<EditText			
+				android:id="@+id/txtValor"
+				android:singleLine="true"
+				android:inputType="numberDecimal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"/>
+						
+		</LinearLayout>
+	
+		<LinearLayout
+			android:orientation="horizontal" 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center">
+			<Button
+				android:id="@+id/btnVoltar" 
+				android:text="@string/btnVoltar"
+				android:layout_width="0px" 
+				android:layout_weight="50"
+				android:layout_height="wrap_content"/>
+			<Button
+				android:id="@+id/btnCadastrar" 
+				android:text="@string/btnCadastrar"
+				android:layout_width="0px" 
+				android:layout_weight="50"
+				android:layout_height="wrap_content"/>
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>
